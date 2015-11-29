@@ -14,6 +14,10 @@ namespace ServiceFX.Worker.Controllers
         {
             foreach (int index in Enumerable.Range(0, 1000))
             {
+                string drive = DiskWrapper.GetDriveOfApplication();
+
+                float freePercent = DiskWrapper.GetFreeDiskSpacePercent(drive);
+
                 EventLogWrapper.WriteEventLog("Potato", EventLogEntryType.Information);
             }
             base.Start();
