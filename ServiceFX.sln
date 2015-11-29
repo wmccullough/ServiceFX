@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFX.Worker", "ServiceFX.Worker\ServiceFX.Worker.csproj", "{B81FE20C-23C5-4B49-A5F5-8F0CDF4301E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceFX.Core", "ServiceFX.Core\ServiceFX.Core.csproj", "{3C7F516C-BD0A-4445-9928-29B110B1CD9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topshelf.Extensions", "Topshelf.Extensions\Topshelf.Extensions.csproj", "{DE2FB5C0-1657-417C-A6A5-90E28843BB8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B81FE20C-23C5-4B49-A5F5-8F0CDF4301E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81FE20C-23C5-4B49-A5F5-8F0CDF4301E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81FE20C-23C5-4B49-A5F5-8F0CDF4301E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81FE20C-23C5-4B49-A5F5-8F0CDF4301E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C7F516C-BD0A-4445-9928-29B110B1CD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7F516C-BD0A-4445-9928-29B110B1CD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7F516C-BD0A-4445-9928-29B110B1CD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7F516C-BD0A-4445-9928-29B110B1CD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE2FB5C0-1657-417C-A6A5-90E28843BB8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2FB5C0-1657-417C-A6A5-90E28843BB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2FB5C0-1657-417C-A6A5-90E28843BB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2FB5C0-1657-417C-A6A5-90E28843BB8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
